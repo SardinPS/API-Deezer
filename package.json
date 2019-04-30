@@ -1,0 +1,30 @@
+{
+  "name": "api-deezer",
+  "version": "1.0.0",
+  "description": "La musique que vous voulez quand vous voulez",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "author": "Moi",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SardinPS/API-Deezer.git"
+  },
+  "keywords": [
+    "Api",
+    "Deezer"
+  ],
+  "bugs": {
+    "url": "https://github.com/SardinPS/API-Deezer/issues"
+  },
+  "homepage": "https://github.com/SardinPS/API-Deezer#readme"
+}

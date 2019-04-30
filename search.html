@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <title>Deezer | Ecoutez vos titres partout ou vous voulez</title>
+        </head>
+        <body>
+            <header>
+                  <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="index.html">
+                          <img src="img/logo.png">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.html"><i class="fa fa-home fa-2x"></i> Accueil</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="search.html"><i class="fa fa-search fa-2x"></i> Recherchez un titre<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="favorites.html"><i class="fa fa-heart fa-2x"></i> Mes musiques favorites</a>
+                            </li>
+                          </ul>
+                        </div>
+                  </nav>
+              </header>
+              <main>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h1>Recherchez votre artiste, album ou chanson favorite avec notre outil de recherche Deezer</h1>
+                          </div>
+                          <form id="formSearch">
+                                <div class="form-row">
+                                  <div class="form-group col-md-12">
+                                    <label for="inputEmail4">Titre :</label>
+                                    <input type="text" class="form-control" id="Song" placeholder="Eminem, Shakira, Queen, ...">
+                                  </div>
+                                  <div class="form-group col-md-12">
+                                    <label for="inputPassword4">Trier par :</label>
+                                    <select class="form-control">
+                                        <option>
+                                            Album
+                                        </option>
+                                        <option>
+                                            Artiste
+                                        </option>
+                                        <option>
+                                            Musique
+                                        </option>
+                                        <option>
+                                            Les plus populaires
+                                        </option>
+                                        <option>
+                                            Les mieux notés
+                                        </option>
+                                    </select>
+                                        <button type="submit" class="btn btn-primary">Recherchez</button>
+                              </form>
+                      </div>
+                  </div>
+              </main>
+              <div id="results"></div>
+
+             <!--<audio controls src="https://cdns-preview-8.dzcdn.net/stream/c-8ad574e54c315bd9f89ba34deb2c7650-4.mp3
+             "></audio>-->
+            <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+            <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+        </body>
+    </html>
