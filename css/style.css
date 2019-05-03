@@ -33,7 +33,7 @@ i{
 }
 
 .card{
-    margin: 20px 10px;
+    margin: 20px 5px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -41,6 +41,21 @@ i{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
+audio{
+    width: 15rem;
+}
+
+#fav{
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+#fav i{
+    color: white;
+}
+
 
 
 
